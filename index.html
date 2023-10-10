@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Multiple drop down list</title>
+</head>
+<body>
+    
+    
+        
+<h2>List of tutorials using Dropdown menu</h2>
+<p>Click on the button to open the tutorial dropdown menu.</p>
+        
+<div class="dropdown">
+    <button onclick="programmingList()" class="dropbtn">Programming</button>
+    <div id="myDropdown1" class="dropdown-content">
+      <a href="#java">Java</a>
+      <a href="#">Python</a>
+      <a href="#">C++</a>
+      <a href="#">C</a>
+    </div>
+  </div>
+
+     <div class="dropdown">
+        <button onclick="databaseList()" class="dropbtn">Database</button>
+        <div id="myDropdown2" class="dropdown-content">
+          <a href="#">MySQL</a>
+          <a href="#" >MongoDB</a>
+          <a href="#" >Cassandra</a>
+        </div>
+      </div>
+   
+    <div class="drop-down">
+        <button onclick="WebTechList()" class="dropbtn">Web Technology</button>
+        <div id="myDropdown3" class="dropdown-content">
+            <a href="#" >React</a>
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#" >JavaScript</a>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
